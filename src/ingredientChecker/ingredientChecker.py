@@ -7,7 +7,7 @@ while i != "n":
     ingredient = input("ingrese uno de los ingredientes que tiene: ")
     user_ingredients.add(ingredient)
     i = input("¿desea agregar otro ingrediente? (s/n)")
-    
+
 missing_ingredients = recipe_cake_ingredients - user_ingredients
 extra_ingredients = user_ingredients - recipe_cake_ingredients
 total_ingredients = recipe_cake_ingredients | user_ingredients
